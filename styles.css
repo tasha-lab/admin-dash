@@ -1,0 +1,221 @@
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dash-container{
+    display:inline-grid;
+    grid-template-columns:300px auto;
+    grid-template-rows: auto;
+    height:100vh;
+}
+.sidebar{
+    background-color: rgb(48, 185, 240);
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+.sidebar h1{
+    margin-left: 20px;
+}
+.content{
+    margin-left:px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding:5px;
+}
+li i{
+    margin-right:15px;
+
+}
+
+.container{
+   display:grid;
+   grid-template-rows: 150px auto;
+   width:154vh;
+}
+.header{
+    background-color: white;
+    display:flex;
+    border-bottom: none;
+    margin-left:40px;
+    margin-top:25px;
+    height:60px;
+}
+.header i{
+    margin-right:10px;
+    width:20px;
+    height:20px;
+    margin-top:10px;
+}
+.header input{
+    background-color: rgb(216, 216, 245);
+    border:none;
+    width:500px;
+    height:30px;
+    border-radius: 20px;
+}
+.right{
+    margin-left: 10%;
+    display:flex;
+}
+#bell{
+    padding-left:50px;
+    padding-right:10px;
+    margin-top:10px;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top:1px;
+
+}
+p i{
+    font-size: 20px;
+    margin-top: 8px;
+    background-color: aquamarine;
+    padding:8px;
+    border-radius: 20px;
+}
+.hii{
+    display:flex;
+    margin-left: 10px;
+    margin-top:2px;
+}
+#secret2{
+    font-size: 20px;
+    margin-top:13px;
+    margin-left:20px;
+    background-color:aquamarine;
+    padding:8px;
+    height:22px;
+    width:20px;
+    border-radius:20px;
+    align-items: center;
+}
+.name{
+    margin-left:30px;
+}
+.name p{
+    font-size: 15px;
+}
+.name h4{
+    margin-top:2px;
+}
+.right2{
+    margin-left:30%;
+    justify-content: space-between;
+    width:390px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:15px;
+    margin-bottom: 50px;
+}
+.right2 button{
+    background-color: rgb(48, 185, 240);
+    padding:10px;
+    border: none;
+    border-radius: 25px;
+    color:white;
+}
+#but1{
+    width:90px;
+}
+#but2{
+    width:90px;
+}
+#but3{
+    width:90px;
+}
+
+/*.main{
+    background-color: rgb(216, 216, 245);
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}*/
+.main-container{
+    background-color: rgb(216, 216, 245);
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+.big-wing{
+    
+    margin-left:10px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.card{
+    background-color: white;
+    border-left:6px solid orange;
+    border-radius: 8px;
+    width:80%;
+    margin:15px 0px;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left:10px;
+    flex-direction:column
+}
+.card h5{
+    margin-top:5px;
+}
+.icons{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    width:90%;
+}
+.icons i{
+    margin:8px;
+}
+.small-wing{
+    display:grid;
+    position:relative;
+}
+.ann-card{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width:70%;
+
+}
+.info{
+    border-bottom: 1px solid black;
+    margin-left:15px;
+    margin-right:15px; ;
+    
+}
+.info h5{
+    font-size: 13px;
+}
+.info p{
+    font-size: 10px;
+    margin-top:0px;
+}
+.trend h4{
+    margin-right: 70px;
+}
+.trend-card{
+    background-color:white;
+    height:170px;
+    border-radius: 8px;
+    width:70%;
+    display:grid;
+}
+.trend-card i{
+    background-color: pink;
+    padding:10px;
+    margin-left:10px;
+    padding:8px;
+    border-radius: 50%;
+}
